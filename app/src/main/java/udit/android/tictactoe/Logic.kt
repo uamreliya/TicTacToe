@@ -8,7 +8,7 @@ class Logic {
 
     val cellsArray = Array(3) { arrayOfNulls<String>(3) }
 
-    val availableCells: List<Cell>
+    private val availableCells: List<Cell>
         get() {
             val cells = mutableListOf<Cell>()
             for (i in cellsArray.indices) {
